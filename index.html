@@ -128,6 +128,121 @@
         .legend-item b {
             color: #64b5f6;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+
+            .table-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            table {
+                min-width: 700px;
+            }
+
+            th {
+                padding: 10px 8px;
+                font-size: 0.75rem;
+                letter-spacing: 0.5px;
+            }
+
+            td {
+                padding: 10px 6px;
+                font-size: 0.7rem;
+                height: 70px;
+            }
+
+            .day-column {
+                width: 50px;
+                padding: 10px 4px;
+            }
+
+            .subject {
+                font-size: 0.8rem;
+                margin-bottom: 2px;
+            }
+
+            .type {
+                font-size: 0.65rem;
+            }
+
+            .room {
+                font-size: 0.65rem;
+                margin-top: 2px;
+            }
+
+            .lunch-slot {
+                font-size: 0.65rem;
+            }
+
+            .legend {
+                grid-template-columns: 1fr;
+                gap: 10px;
+                padding: 15px;
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 15px 8px;
+            }
+
+            h1 {
+                font-size: 1.2rem;
+                margin-bottom: 15px;
+            }
+
+            table {
+                min-width: 650px;
+            }
+
+            th {
+                padding: 8px 5px;
+                font-size: 0.65rem;
+            }
+
+            td {
+                padding: 8px 4px;
+                font-size: 0.65rem;
+                height: 60px;
+            }
+
+            .day-column {
+                width: 45px;
+                padding: 8px 3px;
+            }
+
+            .subject {
+                font-size: 0.75rem;
+                margin-bottom: 1px;
+            }
+
+            .type {
+                font-size: 0.6rem;
+            }
+
+            .room {
+                font-size: 0.6rem;
+                margin-top: 1px;
+            }
+
+            .legend {
+                grid-template-columns: 1fr;
+                gap: 8px;
+                padding: 10px;
+                font-size: 0.7rem;
+            }
+        }
     </style>
 </head>
 <body>
